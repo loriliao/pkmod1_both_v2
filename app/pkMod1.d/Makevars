@@ -1,0 +1,3 @@
+#rxode2 Makevars
+PKG_CFLAGS=-O3  -I"C:\Users\loril\DOCUME~1\R\WIN-LI~1\4.1\rxode2\include" -I"C:/Users/loril/Documents/R/win-library/4.1/rxode2parse/include"
+PKG_LIBS=$(BLAS_LIBS) $(LAPACK_LIBS) $(FLIBS)
